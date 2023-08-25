@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.view
+package com.kirti.ecommerceapplication.view
 
 import android.R
 import android.os.Bundle
@@ -7,11 +7,10 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.kirti.ecommerceapplication.adapter.CategorizedProduct
-import com.ahmetozaydin.ecommerceapp.databinding.ActivityCategoryBinding
 import com.kirti.ecommerceapplication.model.BaseClass
 import com.kirti.ecommerceapplication.model.Product
-import com.ahmetozaydin.ecommerceapp.service.ProductsAPI
-import com.kirti.ecommerceapplication.view.MainActivity
+import com.kirti.ecommerceapplication.service.ProductsAPI
+import com.kirti.ecommerceapplication.databinding.ActivityCategoryBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

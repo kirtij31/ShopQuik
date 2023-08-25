@@ -5,6 +5,9 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.kirti.ecommerceapplication.databinding.EachCategoryBinding
+import com.kirti.ecommerceapplication.model.Product
+import com.kirti.ecommerceapplication.view.CategoryActivity
 
 class CategoryAdapter(
     private val products: ArrayList<Product>,

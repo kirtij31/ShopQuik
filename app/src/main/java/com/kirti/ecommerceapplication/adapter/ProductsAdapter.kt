@@ -7,10 +7,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.kirti.ecommerceapplication.R
 import com.kirti.ecommerceapplication.utils.Utils
 import com.kirti.ecommerceapplication.utils.downloadFromUrl
 import com.kirti.ecommerceapplication.utils.placeholderProgressBar
-import com.ahmetozaydin.ecommerceapp.view.ProductDetailsActivity
+import com.kirti.ecommerceapplication.view.ProductDetailsActivity
 import com.kirti.ecommerceapplication.data.Cart
 import com.kirti.ecommerceapplication.data.CartDatabase
 import com.kirti.ecommerceapplication.data.Favorite

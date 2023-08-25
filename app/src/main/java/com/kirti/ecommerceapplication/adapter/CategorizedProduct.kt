@@ -7,6 +7,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.kirti.ecommerceapplication.R
+import com.kirti.ecommerceapplication.databinding.EachProductBinding
+import com.kirti.ecommerceapplication.model.Product
+import com.kirti.ecommerceapplication.view.ProductDetailsActivity
 
 class CategorizedProduct(
     private val products: ArrayList<Product>,
@@ -59,7 +63,7 @@ class CategorizedProduct(
         holder.binding.textViewProductName.text =  products[position].title
         ("$"+products[position].price.toString()).also { holder.binding.textViewProductPrice.text = it }
         holder.itemView.setOnClickListener {
-            val intent = Intent(context,ProductDetailsActivity::class.java)
+            val intent = Intent(context, ProductDetailsActivity::class.java)
             intent.putExtra("product",products[position])
             context.startActivity(intent)
         }

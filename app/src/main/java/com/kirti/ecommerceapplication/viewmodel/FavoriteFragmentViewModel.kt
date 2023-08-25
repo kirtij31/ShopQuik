@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.viewmodel
+package com.kirti.ecommerceapplication.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.LiveData

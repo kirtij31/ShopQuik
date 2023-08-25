@@ -1,8 +1,9 @@
-package com.ahmetozaydin.ecommerceapp.utils.network
+package com.kirti.ecommerceapplication.utils.network
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.Network
+import com.kirti.ecommerceapplication.utils.network.ConnectivityObserver
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow

@@ -10,14 +10,15 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.ahmetozaydin.ecommerceapp.view.ProductDetailsActivity
-import com.ahmetozaydin.ecommerceapp.viewmodel.CartViewModel
+import com.kirti.ecommerceapplication.view.ProductDetailsActivity
+import com.kirti.ecommerceapplication.viewmodel.CartViewModel
 import com.kirti.ecommerceapplication.R
 import com.kirti.ecommerceapplication.data.CartDatabase
 import com.kirti.ecommerceapplication.data.Cart
 import com.kirti.ecommerceapplication.data.ImageDatabase
 import com.kirti.ecommerceapplication.data.ProductDatabase
 import com.kirti.ecommerceapplication.databinding.EachCartBinding
+import com.kirti.ecommerceapplication.model.Product
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

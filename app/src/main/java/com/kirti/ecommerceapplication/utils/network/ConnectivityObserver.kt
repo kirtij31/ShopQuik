@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.utils.network
+package com.kirti.ecommerceapplication.utils.network
 
 import kotlinx.coroutines.flow.Flow
 

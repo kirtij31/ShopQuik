@@ -9,9 +9,9 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.databinding.BindingAdapter
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
-import com.ahmetozaydin.ecommerceapp.R
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.kirti.ecommerceapplication.R
 
 
 class Utils {

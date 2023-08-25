@@ -1,18 +1,18 @@
-package com.ahmetozaydin.ecommerceapp.view
+package com.kirti.ecommerceapplication.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ahmetozaydin.ecommerceapp.R
+import com.kirti.ecommerceapplication.R
 import com.kirti.ecommerceapplication.adapter.TabLayoutAdapter
-import com.ahmetozaydin.ecommerceapp.databinding.ActivityLogInBinding
-import com.ahmetozaydin.ecommerceapp.fragment.LogInFragment
-import com.ahmetozaydin.ecommerceapp.fragment.SignUpFragment
+import com.kirti.ecommerceapplication.databinding.ActivityLogInBinding
+import com.kirti.ecommerceapplication.fragment.LogInFragment
+import com.kirti.ecommerceapplication.fragment.SignUpFragment
 
 class LogInActivity : AppCompatActivity() {
     lateinit var binding: ActivityLogInBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTheme(R.style.Theme_Ecommerceapp_NoActionBar)
+        setTheme(R.style.Theme_Ecommerceapp_Light)
         binding = ActivityLogInBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)

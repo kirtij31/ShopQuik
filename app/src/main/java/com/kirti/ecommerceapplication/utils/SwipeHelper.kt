@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.utils
+package com.kirti.ecommerceapplication.utils
 
 import android.content.Context
 import android.graphics.*

@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.data
+package com.kirti.ecommerceapplication.data
 
 import android.database.Cursor
 import androidx.room.*

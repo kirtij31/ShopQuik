@@ -13,6 +13,17 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+<!--    <style name="Theme.Ecommerceapp.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="android:statusBarColor">@color/black</item>-->
+<!--    </style>-->
+
+   <style name="NoActionBar">
+       <item name="windowActionBar">false</item>
+       <item name="windowNoTitle">true</item>
+       <item name="android:statusBarColor">@color/black</item>
+   </style>
     <style name="Theme.Ecommerceapp.Light" parent="Theme.MaterialComponents.Light">
         <item name="windowActionBar">true</item>
         <item name="colorPrimary">@color/orange</item>
@@ -31,4 +42,5 @@
         <item name="color">@color/white</item>
         <item name="cornerSize">50%</item>
     </style>
+
 </resources>
