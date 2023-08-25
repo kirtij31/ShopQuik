@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.kirti.ecommerceapplication.R
+import com.kirti.ecommerceapplication.databinding.EachCategoryBinding
 import kotlin.collections.ArrayList
 
 class CategoriesAdapter(

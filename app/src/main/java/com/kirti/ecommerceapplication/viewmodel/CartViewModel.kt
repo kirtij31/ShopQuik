@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.viewmodel
+package com.kirti.ecommerceapplication.viewmodel
 
 import android.content.ContentValues.TAG
 import android.content.Context
@@ -12,7 +12,7 @@ import com.kirti.ecommerceapplication.data.Cart
 import com.kirti.ecommerceapplication.data.CartDatabase
 import com.kirti.ecommerceapplication.data.ImageDatabase
 import com.kirti.ecommerceapplication.data.ProductDatabase
-import com.ahmetozaydin.ecommerceapp.databinding.FragmentCartBinding
+import com.kirti.ecommerceapplication.databinding.FragmentCartBinding
 import com.kirti.ecommerceapplication.model.Product
 import kotlinx.coroutines.*
 class CartViewModel() : ViewModel() {

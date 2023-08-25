@@ -1,17 +1,17 @@
-package com.ahmetozaydin.ecommerceapp.viewmodel
+package com.kirti.ecommerceapplication.viewmodel
 
 import android.content.Context
 import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.kirti.ecommerceapplication.service.ProductsAPI
+import com.kirti.ecommerceapplication.utils.CustomSharedPreferences
 import com.kirti.ecommerceapplication.data.Image
 import com.kirti.ecommerceapplication.data.ImageDatabase
 import com.kirti.ecommerceapplication.data.ProductDatabase
 import com.kirti.ecommerceapplication.model.BaseClass
 import com.kirti.ecommerceapplication.model.Product
-import com.ahmetozaydin.ecommerceapp.service.ProductsAPI
-import com.ahmetozaydin.ecommerceapp.utils.CustomSharedPreferences
 import com.kirti.ecommerceapplication.view.MainActivity
 import kotlinx.coroutines.launch
 import retrofit2.Call
@@ -71,7 +71,7 @@ class HomeViewModel : ViewModel() {
             productDb.deleteAllRecords()
             imageDb.deleteAllRecords()
             products.forEach {
-                val aProduct = com.ahmetozaydin.ecommerceapp.data.Product(it.id,it.title,it.description,it.price,it.discountPercentage,it.rating,it.stock,it.brand,it.category,
+                val aProduct = com.kirti.ecommerceapplication.data.Product(it.id,it.title,it.description,it.price,it.discountPercentage,it.rating,it.stock,it.brand,it.category,
                 it.thumbnail)
                 productDb.insertEntity(aProduct)
             }

@@ -7,12 +7,16 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.ahmetozaydin.ecommerceapp.fragment.*
-import com.ahmetozaydin.ecommerceapp.utils.network.ConnectivityObserver
-import com.ahmetozaydin.ecommerceapp.utils.network.NetworkConnectivityObserver
+import com.kirti.ecommerceapplication.utils.network.ConnectivityObserver
+import com.kirti.ecommerceapplication.utils.network.NetworkConnectivityObserver
 import com.google.android.material.snackbar.Snackbar
 import com.kirti.ecommerceapplication.R
 import com.kirti.ecommerceapplication.databinding.ActivityMainBinding
+import com.kirti.ecommerceapplication.fragment.CartFragment
+import com.kirti.ecommerceapplication.fragment.CategoryFragment
+import com.kirti.ecommerceapplication.fragment.FavoriteFragment
+import com.kirti.ecommerceapplication.fragment.HomeFragment
+import com.kirti.ecommerceapplication.fragment.ProfileFragment
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 

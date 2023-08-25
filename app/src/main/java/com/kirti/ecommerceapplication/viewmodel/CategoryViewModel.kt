@@ -1,10 +1,10 @@
-package com.ahmetozaydin.ecommerceapp.viewmodel
+package com.kirti.ecommerceapplication.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import com.kirti.ecommerceapplication.model.BaseClass
 import com.kirti.ecommerceapplication.model.Product
-import com.ahmetozaydin.ecommerceapp.service.ProductsAPI
+import com.kirti.ecommerceapplication.service.ProductsAPI
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver

@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.fragment
+package com.kirti.ecommerceapplication.fragment
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -17,11 +17,11 @@ import com.kirti.ecommerceapplication.adapter.FavoriteAdapter
 import com.kirti.ecommerceapplication.data.CartDatabase
 import com.kirti.ecommerceapplication.data.Favorite
 import com.kirti.ecommerceapplication.data.FavoriteDatabase
-import com.ahmetozaydin.ecommerceapp.databinding.FragmentFavoriteBinding
+import com.kirti.ecommerceapplication.databinding.FragmentFavoriteBinding
 import com.kirti.ecommerceapplication.model.Product
-import com.ahmetozaydin.ecommerceapp.utils.SwipeHelper
-import com.ahmetozaydin.ecommerceapp.view.ProductDetailsActivity
-import com.ahmetozaydin.ecommerceapp.viewmodel.FavoriteFragmentViewModel
+import com.kirti.ecommerceapplication.utils.SwipeHelper
+import com.kirti.ecommerceapplication.view.ProductDetailsActivity
+import com.kirti.ecommerceapplication.viewmodel.FavoriteFragmentViewModel
 import kotlinx.coroutines.*
 
 

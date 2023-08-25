@@ -1,11 +1,11 @@
-package com.ahmetozaydin.ecommerceapp.fragment
+package com.kirti.ecommerceapplication.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.ahmetozaydin.ecommerceapp.R
+import com.kirti.ecommerceapplication.R
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

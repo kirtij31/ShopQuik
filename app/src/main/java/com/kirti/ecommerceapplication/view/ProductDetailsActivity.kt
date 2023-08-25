@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.view
+package com.kirti.ecommerceapplication.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -10,7 +10,7 @@ import com.kirti.ecommerceapplication.data.Cart
 import com.kirti.ecommerceapplication.data.CartDatabase
 import com.kirti.ecommerceapplication.data.Favorite
 import com.kirti.ecommerceapplication.data.FavoriteDatabase
-import com.ahmetozaydin.ecommerceapp.databinding.ActivityProductDetailsBinding
+import com.kirti.ecommerceapplication.databinding.ActivityProductDetailsBinding
 import com.kirti.ecommerceapplication.model.Product
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

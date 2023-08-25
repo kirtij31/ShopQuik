@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.fragment
+package com.kirti.ecommerceapplication.fragment
 
 import android.os.Bundle
 import android.view.*
@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kirti.ecommerceapplication.adapter.CategoryAdapter
 import com.kirti.ecommerceapplication.adapter.ProductsAdapter
-import com.ahmetozaydin.ecommerceapp.databinding.FragmentHomeBinding
 import com.kirti.ecommerceapplication.model.Product
-import com.ahmetozaydin.ecommerceapp.viewmodel.HomeViewModel
+import com.kirti.ecommerceapplication.databinding.FragmentHomeBinding
+import com.kirti.ecommerceapplication.viewmodel.HomeViewModel
 import java.util.*
 
 

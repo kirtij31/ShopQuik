@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.fragment
+package com.kirti.ecommerceapplication.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kirti.ecommerceapplication.adapter.CategoriesAdapter
 import com.kirti.ecommerceapplication.adapter.CategorizedProduct
-import com.ahmetozaydin.ecommerceapp.databinding.FragmentCategoryBinding
-import com.ahmetozaydin.ecommerceapp.viewmodel.CategoryViewModel
+import com.kirti.ecommerceapplication.databinding.FragmentCategoryBinding
+import com.kirti.ecommerceapplication.viewmodel.CategoryViewModel
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 

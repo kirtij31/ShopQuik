@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.fragment
+package com.kirti.ecommerceapplication.fragment
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -15,10 +15,10 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.kirti.ecommerceapplication.adapter.CartAdapter
 import com.kirti.ecommerceapplication.data.CartDatabase
-import com.ahmetozaydin.ecommerceapp.databinding.FragmentCartBinding
-import com.ahmetozaydin.ecommerceapp.utils.SwipeHelper
-import com.ahmetozaydin.ecommerceapp.view.ProductDetailsActivity
-import com.ahmetozaydin.ecommerceapp.viewmodel.CartViewModel
+import com.kirti.ecommerceapplication.databinding.FragmentCartBinding
+import com.kirti.ecommerceapplication.utils.SwipeHelper
+import com.kirti.ecommerceapplication.view.ProductDetailsActivity
+import com.kirti.ecommerceapplication.viewmodel.CartViewModel
 import com.stripe.android.PaymentConfiguration
 import kotlinx.coroutines.*
 

@@ -1,4 +1,4 @@
-package com.ahmetozaydin.ecommerceapp.service
+package com.kirti.ecommerceapplication.service
 
 import com.kirti.ecommerceapplication.model.BaseClass
 import io.reactivex.Single

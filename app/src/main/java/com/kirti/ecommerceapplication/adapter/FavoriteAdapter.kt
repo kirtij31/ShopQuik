@@ -8,6 +8,14 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
+import com.kirti.ecommerceapplication.R
+import com.kirti.ecommerceapplication.data.Favorite
+import com.kirti.ecommerceapplication.data.ImageDatabase
+import com.kirti.ecommerceapplication.data.ProductDatabase
+import com.kirti.ecommerceapplication.databinding.EachFavoriteBinding
+import com.kirti.ecommerceapplication.model.Product
+import com.kirti.ecommerceapplication.utils.downloadFromUrl
+import com.kirti.ecommerceapplication.view.ProductDetailsActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
